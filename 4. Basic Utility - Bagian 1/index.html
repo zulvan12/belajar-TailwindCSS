@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>4. Basic Utility part 1</title>
+ <!-- <style type="text/tailwindcss">
+  * {
+   border: 1px solid red;
+  }
+ </style> -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+<script>
+ tailwind.config = {
+  theme: {
+    extend: {
+      spacing: {
+        '13': '3.25rem',
+      },
+      fontFamily: {
+         bitter : ['Bitter'], 
+      }
+    }
+  }
+}
+</script>
+</head>
+<body>
+ <h1 class="text-5xl mb-4">Belajar Basic Utility Part 1</h1>
+
+ <section class="mb-10">
+  <h1 class="text-4xl">Spacing</h1>
+  <h1>Margin</h1>
+  <div class="m-4 border-2 border-red-800">Margin 1 rem (16px)</div>
+  <h1>Padding</h1>
+  <div class="m-4 border-2 border-red-800 p-4">Margin 1 rem (16px), Padding 1 rem</div>
+ </section>
+
+ <section class="mb-10">
+  <h1 class="text-4xl">Sizing</h1>
+  <h1>Width</h1>
+  <div class="w-32 border-2 border-blue-800">Width 8 rem (128px)</div>
+  <h1>Padding</h1>
+  <div class="w-1/2 border-2 border-blue-800">Width 1/2 parent</div>
+ </section>
+ 
+ <section class="mb-10 mx-7 font-bitter">
+  <h1 class="text-4xl">Typography</h1>
+  <h1>Judul Tulisan</h1>
+  <div>by Sumanto, 04 February 2022</div>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque eligendi quam cupiditate sint eos, incidunt repellendus nesciunt at, assumenda nemo, non sunt nulla minima pariatur provident a deleniti dolorum reprehenderit? Distinctio natus aperiam rem modi velit. Natus temporibus recusandae culpa, suscipit facilis nesciunt deleniti laboriosam? Ullam qui temporibus error nulla, laboriosam dignissimos doloremque exercitationem natus perferendis sunt aperiam dolore odit quibusdam blanditiis possimus quasi officia rem sapiente cupiditate ducimus vitae autem. Perferendis explicabo excepturi suscipit, facilis dolor ipsum quidem fugiat sed, eligendi ut iusto nesciunt officia vero eveniet necessitatibus! Animi eum molestias voluptate ullam nihil quas eos porro rem perspiciatis?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde numquam ad itaque quam! Nobis in eos ratione exercitationem, ipsa inventore doloribus dignissimos iusto eaque tempore nisi reiciendis, beatae eveniet delectus.</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed aspernatur odit laborum nemo suscipit maxime ab beatae est tenetur nesciunt, aut praesentium provident neque doloremque impedit eos animi debitis quos pariatur culpa. Aut eius sint corporis eos id vitae, fugit quae. Repellendus repudiandae incidunt aspernatur facere suscipit cum aperiam amet vitae, adipisci quis. Aut nostrum, ad cupiditate eos facere nemo totam placeat nesciunt culpa voluptate animi iure? Voluptatibus, consectetur neque.</p>
+ </section>
+
+</body>
+</html>

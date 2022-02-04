@@ -1,0 +1,15 @@
+{
+  "name": "4.-basic-utility---bagian-1",
+  "version": "1.0.0",
+  "description": "no description yet!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "tailwindcss -i ./tailwindcss.css -o ./style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.16"
+  }
+}
