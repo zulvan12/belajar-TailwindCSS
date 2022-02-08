@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script>
+          tailwind.config = {
+               darkMode : 'class',
+          }
+     </script>
+     <title>Pseudo Class & Dark Mode</title>
+</head>
+<body class="dark:text-white dark:bg-slate-900">
+     <h1 class="text-3xl mb-6">Pseudo Class & Dark Mode</h1>
+     <button class="mx-auto block bg-blue-500 px-3 py-1 rounded-full text-white font-bold hover:bg-blue-600 active:bg-blue-900 focus:ring-sky-300 focus:ring">Submit</button>
+
+
+     <!-- grouping utk hover nya -->
+     <div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md hover:bg-slate-800 group dark:bg-blue-900 bg-slate-400">
+          <h5 class="font-bold text-slate-600 text-lg mb-3 group-hover:text-white">my card</h5>
+          <p class="text-slate-500  group-hover:text-white selection:bg-red-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus enim quas eaque voluptate cumque possimus temporibus error pariatur ad, accusantium nobis doloremque, dicta tenetur. Rem voluptate sint qui aut quam.</p>
+     </div>
+
+     <div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md">
+          <form action="">
+               <label for="username" class="">
+                    <span class="block mb-1 text-slate-500 after:content-['*'] after:text-red-700 after:ml-0.5">Email</span>
+                    <input type="email" id="username" class="px-3 py-2 shadow border rounded w-full block text-sm placeholder:text-blue-600 focus:outline-none focus:ring-4 focus:ring-sky-400 invalid:text-red-600 invalid:focus:ring-red-700 peer" placeholder="Masukkan username anda ...">
+                    <p class="text-red-600 text-sm m-1 invisible peer-invalid:visible">email mu salah bro</p>
+               </label>
+          </form>
+     </div>
+</body>
+</html>
